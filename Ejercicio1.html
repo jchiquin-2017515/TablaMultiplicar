@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+    <style>
+        img {
+            opacity: 0.1;
+            position: relative;
+        }
+    </style>
+</head>
+<script>
+    function Tabla(){
+        valor1 = num1.value * 1;
+        for (i = 0; i <= 10 ; i++) {
+				resultado = valor1 * i;
+				document.write("<br>");
+				document.write( valor1 + " X " + i + " = " + resultado);
+				document.write("<br>");
+			}
+    }
+</script>
+<body bgcolor="#27C1D3">
+    <center>
+        <div>
+        <div style="background-color: #0EB4C8; position:relative; width: 800px; height: 300px; border-radius: 200px; padding-top: 50px;">
+        <h1>Tabla de multiplicar</h1>
+        <br><br>
+        <label>Ingrese un número</label>
+        <br><br>
+        <input type="text" id="num1">
+        <br><br>
+        <input type="button" value="Operar" onclick="Tabla()">
+    </div>
+    <img src="numeros.jpg" alt="">
+    </div>
+    </center>
+</body>
+</html>
